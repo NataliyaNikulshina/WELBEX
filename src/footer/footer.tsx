@@ -38,10 +38,13 @@ function Footer() {
               </li>
             </ul>
             <ul className={`${styleFooter.list}`}>
+              <li className={`${styleFooter.itemMobile}`}>
+                <p className={`${styleFooter.text}`}>Благодарность клиентов</p>
+              </li>
               <li>
                 <p className={`${styleFooter.text}`}>Кейсы</p>
               </li>
-              <li>
+              <li className={`${styleFooter.itemDesctop}`}>
                 <p className={`${styleFooter.text}`}>Благодарственные письма</p>
               </li>
               <li>
