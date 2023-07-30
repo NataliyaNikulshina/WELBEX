@@ -1,0 +1,31 @@
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+
+
+.item {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.icon {
+   
+    /* padding-left: 10px; */
+    margin-right: 0;
+    
+  }
+
+.text {
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 0;
+    padding: 0 0 20px;
+}

@@ -1,0 +1,82 @@
+.footer{
+    width: calc(100% - 2 * 150px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 0 20px;
+}
+
+.caption{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    margin: 0;
+    padding-bottom: 20px;
+    color: #656566;
+    text-align: left;
+}
+
+.captionEnd{
+    composes: caption;
+    text-align: right;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: start;
+    align-items: start;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.text{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #E4E5EA;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: start;
+    gap: 52px;
+}
+
+ .nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-end;
+} 
+
+.contacts{
+    padding: 0 0 16px;
+    width: 90px;
+    margin-right: 0;
+}
+
+.container{
+    composes: wrapper;
+    gap: 100px;
+}
+
+.copyright{
+    composes: text;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    padding: 70px 0 5px;
+}
+
+.privacy{
+    composes: copyright;
+    text-decoration: underline;
+    padding: 0;
+}
