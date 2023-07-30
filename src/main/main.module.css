@@ -26,9 +26,11 @@
     line-height: 1;
     width: 362px;
     margin: 0;
-    background: linear-gradient(45deg, #FCB045, #FF3F78);
+    background: linear-gradient(to right, #FCB045, #FF3F78);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
+    /* -webkit-box-decoration-break: clone; */
     text-align: left;
 }
 
@@ -50,14 +52,25 @@
     width: 291px;
     padding: 18px 0 40px;
     margin: 0;
+    background: linear-gradient(to right, #FCB045, #FF3F78);
+    -webkit-background-clip: text;
+    color:#E4E5EA;
 }
 
 .textGradient{
-    composes: titleGradient;
     font-size: 18px;
+    font-style: normal;
     text-transform: uppercase;
     letter-spacing: 0.9px;
     font-weight: 700;
+    line-height: 1;
+    width: 362px;
+    margin: 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* -webkit-box-decoration-break: clone; */
+    text-align: left;
 }
 
 .table{
